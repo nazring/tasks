@@ -1,0 +1,60 @@
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header {
+  position: relative;
+  z-index: 12;
+}
+#header .all-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .all-header .left-header {
+  color: #fff;
+  font-size: 32px;
+}
+#header .all-header .right-header ul {
+  display: flex;
+  list-style: none;
+}
+#header .all-header .right-header ul li {
+  margin-right: 20px;
+}
+#header .all-header .right-header ul li a {
+  color: #fff;
+  font-size: 16px;
+}
+
+#welcome {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+#welcome .welcome-img {
+  width: 100%;
+  height: 100%;
+}
+#welcome .welcome-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#welcome .welcome-text {
+  position: absolute;
+  top: 44%;
+  left: 44%;
+}
+#welcome .welcome-text h1 {
+  color: #fff;
+  font-size: 50px;
+}/*# sourceMappingURL=main.css.map */
